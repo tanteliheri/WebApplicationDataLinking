@@ -33,8 +33,6 @@ At the level of the 'CompanyController' controller, the 'saveCompaniesInformatio
 * spring-boot-starter-web : it uses Spring MVC, REST and Tomcat as a default embedded server. The single spring-boot-starter-web dependency transitively pulls in all dependencies related to web development. It also reduces the build dependency count.
 * spring-boot-starter-actuator : it's a sub-project of the Spring Boot Framework. It includes a number of additional features that help us to monitor and manage the Spring Boot application. It contains the actuator endpoints (the place where the resources live).
 * spring-boot-devtools : devTools stands for Developer Tool. The aim of the module is to try and improve the development time while working with the Spring Boot application. Spring Boot DevTools pick up the changes and restart the application. Spring Boot DevTools provides the following features : Property Defaults, Automatic Restart, LiveReload, Remote Debug Tunneling.
-* spring-boot-starter-test : 
-* commons-collections4 : 
 * springdoc-openapi-ui : springdoc-openapi java library helps to automate the generation of API documentation using spring boot projects. springdoc-openapi works by examining an application at runtime to infer API semantics based on spring configurations, class structure and various annotations. We can simply access the API documentation at: http://localhost:8080/swagger-ui.html
 * org.projectlombok : Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
   Never write another getter or equals method again, with one annotation your class has a fully featured builder, Automate your logging variables, and much more.
